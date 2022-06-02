@@ -1,0 +1,171 @@
+2022-05-18 22:09:38.782 -04:00 [INF] user going through mainmenu
+2022-05-18 22:13:06.158 -04:00 [INF] user going through mainmenu
+2022-05-18 22:13:25.161 -04:00 [WRN] Customer  name already exist in the system
+2022-05-18 22:15:59.309 -04:00 [INF] user going through mainmenu
+2022-05-18 22:19:40.665 -04:00 [INF] user going through mainmenu
+2022-05-18 22:25:04.925 -04:00 [INF] user going through mainmenu
+2022-05-18 22:25:48.635 -04:00 [INF] user going through mainmenu
+2022-05-18 22:25:50.218 -04:00 [INF] user going through mainmenu
+2022-05-18 22:31:01.395 -04:00 [INF] user going through mainmenu
+2022-05-18 22:50:03.948 -04:00 [INF] user add Customer menu
+2022-05-18 22:51:37.434 -04:00 [INF] user add Customer menu
+2022-05-18 22:51:57.270 -04:00 [INF] user going through mainmenu
+2022-05-18 22:57:50.210 -04:00 [INF] user going through searchCustomer menu
+2022-05-18 23:23:04.657 -04:00 [INF] user going through searchCustomer menu
+2022-05-18 23:30:38.967 -04:00 [INF] user going through searchCustomer menu
+2022-05-18 23:32:24.618 -04:00 [INF] user going through searchCustomer menu
+2022-05-18 23:36:58.093 -04:00 [INF] user going through searchCustomer menu
+2022-05-18 23:37:40.638 -04:00 [INF] user going through searchCustomer menu
+2022-05-18 23:58:54.978 -04:00 [INF] user add Customer menu
+2022-05-18 23:59:03.223 -04:00 [INF] user going through mainmenu
+2022-05-18 23:59:05.507 -04:00 [INF] user going through searchCustomer menu
+2022-05-19 00:45:40.051 -04:00 [INF] user add Customer menu
+2022-05-19 00:46:48.645 -04:00 [INF] user going through mainmenu
+2022-05-19 00:46:53.539 -04:00 [INF] user going through searchCustomer menu
+2022-05-19 01:02:51.724 -04:00 [INF] user add Customer menu
+2022-05-19 01:13:49.801 -04:00 [INF] user add Customer menu
+2022-05-19 01:14:44.055 -04:00 [INF] user going through mainmenu
+2022-05-19 14:06:26.734 -04:00 [INF] user add Customer menu
+2022-05-19 14:08:21.433 -04:00 [INF] user add Customer menu
+2022-05-19 14:09:21.142 -04:00 [INF] user add Customer menu
+2022-05-19 14:10:09.888 -04:00 [INF] user going through mainmenu
+2022-05-19 14:10:11.425 -04:00 [INF] user add Customer menu
+2022-05-19 14:11:23.274 -04:00 [INF] user going through mainmenu
+2022-05-19 14:11:31.062 -04:00 [INF] user going through mainmenu
+2022-05-19 14:11:38.738 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:12.170 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:15.527 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:17.513 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:18.392 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:18.990 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:19.671 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:20.070 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:20.720 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:45.755 -04:00 [INF] user going through mainmenu
+2022-05-19 14:12:47.412 -04:00 [INF] user going through mainmenu
+2022-05-19 14:22:58.396 -04:00 [INF] user add Customer menu
+2022-05-19 14:23:03.823 -04:00 [INF] user going through mainmenu
+2022-05-19 14:23:10.540 -04:00 [INF] user going through searchCustomer menu
+2022-05-19 14:31:30.910 -04:00 [INF] user add Customer menu
+2022-05-19 14:34:18.246 -04:00 [INF] user add Customer menu
+2022-05-19 14:37:24.284 -04:00 [INF] user add Customer menu
+2022-05-19 14:38:13.384 -04:00 [INF] user add Customer menu
+2022-05-19 14:39:08.538 -04:00 [INF] user add Customer menu
+2022-05-19 14:40:11.124 -04:00 [INF] user add Customer menu
+2022-05-19 14:40:18.087 -04:00 [INF] user add Customer menu
+2022-05-19 14:40:46.794 -04:00 [INF] user add Customer menu
+2022-05-19 14:40:51.502 -04:00 [INF] user add Customer menu
+2022-05-19 14:42:20.959 -04:00 [INF] user going through searchCustomer menu
+2022-05-19 14:46:49.479 -04:00 [INF] user add Customer menu
+2022-05-19 14:47:08.005 -04:00 [INF] user going through searchCustomer menu
+2022-05-19 17:19:55.405 -04:00 [INF] user add Customer menu
+2022-05-19 17:20:08.608 -04:00 [INF] user going through mainmenu
+2022-05-19 22:44:34.307 -04:00 [INF] user going through searchCustomer menu
+2022-05-19 22:56:51.860 -04:00 [INF] user going through searchCustomer menu
+2022-05-19 22:58:29.929 -04:00 [INF] user going through searchCustomer menu
+2022-05-20 00:33:19.633 -04:00 [INF] user add Customer menu
+2022-05-20 00:52:26.961 -04:00 [INF] user going through searchCustomer menu
+2022-05-20 00:53:21.895 -04:00 [INF] user going through searchCustomer menu
+2022-05-20 00:57:32.681 -04:00 [INF] user going through searchCustomer menu
+2022-05-20 01:20:36.147 -04:00 [INF] user add Customer menu
+2022-05-20 01:26:20.888 -04:00 [INF] user add Customer menu
+2022-05-20 01:26:50.599 -04:00 [INF] user add Customer menu
+2022-05-20 01:27:39.677 -04:00 [INF] user add Customer menu
+2022-05-20 01:27:53.486 -04:00 [INF] user going through mainmenu
+2022-05-21 02:32:37.459 -04:00 [INF] user add Customer menu
+2022-05-21 02:33:04.268 -04:00 [INF] user going through mainmenu
+2022-05-21 02:33:54.696 -04:00 [INF] user going through searchCustomer menu
+2022-05-21 02:39:38.201 -04:00 [INF] user add Customer menu
+2022-05-21 02:40:27.131 -04:00 [INF] user going through mainmenu
+2022-05-21 02:40:32.326 -04:00 [INF] user going through searchCustomer menu
+2022-05-21 02:42:20.498 -04:00 [INF] user going through searchCustomer menu
+2022-05-21 02:43:48.481 -04:00 [INF] user add Customer menu
+2022-05-21 02:46:02.699 -04:00 [INF] user add Customer menu
+2022-05-21 02:58:48.500 -04:00 [INF] user add Customer menu
+2022-05-23 12:35:23.786 -04:00 [INF] user add Customer menu
+2022-05-23 12:39:02.366 -04:00 [INF] user add Customer menu
+2022-05-23 12:39:31.234 -04:00 [INF] user add Customer menu
+2022-05-23 12:43:04.066 -04:00 [INF] user add Customer menu
+2022-05-23 12:53:59.828 -04:00 [INF] user add Customer menu
+2022-05-24 15:10:47.605 -04:00 [INF] user going through searchCustomer menu
+2022-05-24 15:10:53.422 -04:00 [INF] user going through searchCustomer menu
+2022-05-24 15:17:34.317 -04:00 [INF] user add Customer menu
+2022-05-24 15:18:42.301 -04:00 [INF] user add Customer menu
+2022-05-24 15:18:57.451 -04:00 [INF] user going through mainmenu
+2022-05-24 15:20:13.449 -04:00 [INF] user going through searchCustomer menu
+2022-05-24 15:21:13.398 -04:00 [INF] user going through searchCustomer menu
+2022-05-24 15:24:43.228 -04:00 [INF] user add Customer menu
+2022-05-24 15:25:03.875 -04:00 [INF] user going through mainmenu
+2022-05-24 15:25:30.652 -04:00 [INF] user going through searchCustomer menu
+2022-05-24 15:31:52.497 -04:00 [INF] user add Customer menu
+2022-05-24 15:32:15.639 -04:00 [INF] user going through mainmenu
+2022-05-24 15:32:18.664 -04:00 [INF] user going through searchCustomer menu
+2022-05-24 15:34:30.210 -04:00 [INF] user add Customer menu
+2022-05-24 15:34:41.719 -04:00 [INF] user going through mainmenu
+2022-05-24 15:34:44.587 -04:00 [INF] user going through searchCustomer menu
+2022-05-25 10:11:38.094 -04:00 [INF] user going through searchCustomer menu
+2022-05-25 10:12:43.556 -04:00 [INF] user going through searchCustomer menu
+2022-05-25 10:27:04.553 -04:00 [INF] user add Customer menu
+2022-05-25 10:27:58.568 -04:00 [INF] user add Customer menu
+2022-05-25 10:28:17.806 -04:00 [INF] user going through mainmenu
+2022-05-25 10:28:23.186 -04:00 [INF] user going through mainmenu
+2022-05-25 10:28:26.982 -04:00 [INF] user going through searchCustomer menu
+2022-05-25 11:12:00.548 -04:00 [INF] user add Customer menu
+2022-05-25 11:12:25.200 -04:00 [INF] user going through mainmenu
+2022-05-25 11:12:41.489 -04:00 [INF] user going through mainmenu
+2022-05-25 11:12:43.899 -04:00 [INF] user going through searchCustomer menu
+2022-05-25 11:13:17.150 -04:00 [INF] user going through searchCustomer menu
+2022-05-25 11:14:19.403 -04:00 [INF] user add Customer menu
+2022-05-28 12:43:44.104 -04:00 [INF] user going through searchCustomer menu
+2022-05-28 12:45:37.226 -04:00 [INF] user going through searchCustomer menu
+2022-05-28 13:05:03.277 -04:00 [INF] user add Customer menu
+2022-05-28 13:08:41.916 -04:00 [INF] user add Customer menu
+2022-05-28 13:09:10.643 -04:00 [INF] user going through mainmenu
+2022-05-28 13:09:32.652 -04:00 [INF] user going through searchCustomer menu
+2022-05-29 22:16:49.800 -04:00 [INF] user going through searchCustomer menu
+2022-05-29 22:16:53.370 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 01:01:37.982 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 01:01:51.218 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 01:02:13.476 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 01:09:00.398 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 01:09:09.012 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:12:40.404 -04:00 [INF] user add Customer menu
+2022-05-30 10:13:09.023 -04:00 [INF] user going through mainmenu
+2022-05-30 10:13:11.225 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:13:32.570 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:20:18.147 -04:00 [INF] user add Customer menu
+2022-05-30 10:21:14.820 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:21:40.316 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:38:04.808 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:38:17.853 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:38:25.467 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:38:31.735 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:46:37.080 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 10:46:46.475 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 19:51:35.112 -04:00 [INF] user add Customer menu
+2022-05-30 19:52:34.390 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 20:49:39.366 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 20:49:52.364 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-30 21:01:24.828 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 21:01:35.403 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-30 21:05:42.486 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 21:06:03.390 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-30 21:06:09.162 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 21:06:19.040 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-30 21:06:59.308 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 21:08:19.517 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 21:08:31.590 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-30 21:08:36.456 -04:00 [INF] user going through mainmenu
+2022-05-30 21:54:25.460 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 21:54:34.494 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-30 21:55:13.279 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 23:38:00.417 -04:00 [INF] user going through searchCustomer menu
+2022-05-30 23:38:10.578 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-31 00:18:29.120 -04:00 [INF] user going through searchCustomer menu
+2022-05-31 00:18:36.456 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-31 00:18:44.962 -04:00 [INF] user going through mainmenu
+2022-05-31 00:19:11.805 -04:00 [INF] user going through searchCustomer menu
+2022-05-31 00:19:19.358 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-31 00:28:42.796 -04:00 [INF] user going through searchCustomer menu
+2022-05-31 00:28:50.138 -04:00 [INF]  User selecting viewStoreProducts
+2022-05-31 00:28:57.392 -04:00 [INF] user going through mainmenu

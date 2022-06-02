@@ -1,0 +1,12 @@
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/bin/Release/net6.0/storeModel.deps.json
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/bin/Release/net6.0/storeModel.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/bin/Release/net6.0/ref/storeModel.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/bin/Release/net6.0/storeModel.pdb
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/storeModel.csproj.AssemblyReference.cache
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/storeModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/storeModel.AssemblyInfoInputs.cache
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/storeModel.AssemblyInfo.cs
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/storeModel.csproj.CoreCompileInputs.cache
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/storeModel.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/ref/storeModel.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/Release/net6.0/storeModel.pdb

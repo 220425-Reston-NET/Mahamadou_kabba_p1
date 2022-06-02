@@ -1,0 +1,252 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeApi/storeApi.csproj": {}
+  },
+  "projects": {
+    "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeApi/storeApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeApi/storeApi.csproj",
+        "projectName": "storeApi",
+        "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeApi/storeApi.csproj",
+        "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/storeBL.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/storeBL.csproj"
+              },
+              "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/storeDL.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/storeDL.csproj"
+              },
+              "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/storeBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/storeBL.csproj",
+        "projectName": "storeBL",
+        "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/storeBL.csproj",
+        "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/storeDL.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/storeDL.csproj"
+              },
+              "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/storeDL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/storeDL.csproj",
+        "projectName": "storeDL",
+        "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/storeDL.csproj",
+        "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeDL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj",
+        "projectName": "storeModel",
+        "projectPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/storeModel.csproj",
+        "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/storeModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

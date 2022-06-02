@@ -1,0 +1,19 @@
+#another file to instruct the computer what to do 
+version: 0.2
+
+phases:
+   install:
+       commands:
+        - echo 'Installing dotNet 6'
+        - /usr/local/bin/dotnet-install.sh --chanel LTS
+
+
+pre_build:
+   commands:
+     - echo 'Restoring dependencies of each project (the packages) and unit testing'
+     - dotnet restore
+     - dotnet test --no-restore
+
+build:
+  commands:
+    - echo 'building '

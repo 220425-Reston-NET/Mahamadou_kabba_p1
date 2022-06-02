@@ -1,0 +1,17 @@
+/Users/mahamadoukabba/Desktop/Revature/MyStore/StoreBL/bin/Debug/net6.0/storeBL.deps.json
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/bin/Debug/net6.0/storeBL.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/StoreBL/bin/Debug/net6.0/ref/storeBL.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/bin/Debug/net6.0/storeBL.pdb
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/bin/Debug/net6.0/storeDL.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/bin/Debug/net6.0/storeModel.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/bin/Debug/net6.0/storeDL.pdb
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/bin/Debug/net6.0/storeModel.pdb
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/storeBL.csproj.AssemblyReference.cache
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/storeBL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/storeBL.AssemblyInfoInputs.cache
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/storeBL.AssemblyInfo.cs
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/storeBL.csproj.CoreCompileInputs.cache
+/Users/mahamadoukabba/Desktop/Revature/MyStore/StoreBL/obj/Debug/net6.0/storeBL.csproj.CopyComplete
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/storeBL.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/ref/storeBL.dll
+/Users/mahamadoukabba/Desktop/Revature/MyStore/storeBL/obj/Debug/net6.0/storeBL.pdb
