@@ -16,4 +16,16 @@ pre_build:
 
 build:
   commands:
-    - echo 'building '
+    - echo 'building the app'
+    - dotnet build
+
+
+post_build:
+    commands:
+      - echo 'Creating Publish folder for the app'
+      - dotnet publish -c Release -o publish
+  
+artifacts:
+  files:
+      - 'Dockerfile'
+      - publish/**/*

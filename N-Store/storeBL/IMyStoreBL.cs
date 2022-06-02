@@ -31,7 +31,8 @@ namespace storeBL
         // List of current customers method
         //  gives list of object that hold  customers in database
         List<CustomerClass> GetAllCustomer();
-        
+        //  make async version of List<CustomerClass> GetAllCustomer(); to give current customer in db async
+        Task<List<CustomerClass>> GetAllCustomerAsync();
     }
     
 }

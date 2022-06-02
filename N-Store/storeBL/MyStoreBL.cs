@@ -24,7 +24,7 @@ public class MyStoreBL : IstoreBL
 
         //   ================================
 
-        public void AddCustomer(CustomerClass p_store)
+        public  void AddCustomer(CustomerClass p_store)
 {
     
 
@@ -69,8 +69,13 @@ public class MyStoreBL : IstoreBL
         {
             return _storeRepo.GetAllCustomers();
         }
-      //  why addCustomer got created again if i already have it
-      
-        
+
+        public async Task<List<CustomerClass>> GetAllCustomerAsync()
+        {
+           return await _storeRepo.GetAllCustomersAsync();
+        }
+        //  why addCustomer got created again if i already have it
+
+
     }
 }

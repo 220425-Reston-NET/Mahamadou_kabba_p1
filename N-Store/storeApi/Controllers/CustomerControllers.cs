@@ -24,11 +24,11 @@ namespace storeApi.Controllers
         // create action to do something with api  (we use get to get) 
         // this is an action of a controller, it needs the HTTP verb it's associated with
         [HttpGet("GetAllCustomer")]
-        public IActionResult GetAllCustomer()
+        public async Task<IActionResult> GetAllCustomer()
         {
             try
             {
-                 List<CustomerClass> listOfCurrentCustomers = _storeBL.GetAllCustomer();
+                 List<CustomerClass> listOfCurrentCustomers = await _storeBL.GetAllCustomerAsync();
                //  followed by "ok()" it determines what http status code to give
               return Ok(listOfCurrentCustomers);
             }
@@ -55,8 +55,27 @@ namespace storeApi.Controllers
                 
                 return Conflict("Customer already in the system or an invalid info");
             }
+
           
         }
+
+        [HttpGet("SearchCustomerByPhoneNumber")]
+        public IActionResult SearchCustomer([FromQuery] string SearchCustomerByNumber)
+        {
+
+            try
+            {
+                return Ok(_storeBL.SearchCustomerByPhoneNumber(SearchCustomerByNumber));
+            }
+            catch (System.Exception)
+            {
+                
+                return Conflict();
+            }
+          
+        }
+
+       
      }
     
 

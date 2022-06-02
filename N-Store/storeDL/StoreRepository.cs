@@ -35,7 +35,12 @@ namespace storeDL
                 return listOfCustomers;
             }
 
-            public void Update(CustomerClass c_recources)
+        public Task<List<CustomerClass>> GetAllCustomersAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(CustomerClass c_recources)
             {
                // current information from the db
                List<CustomerClass> listOfCustomers = GetAllCustomers();

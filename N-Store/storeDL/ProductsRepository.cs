@@ -19,6 +19,11 @@ namespace storeDL
             return listOfProducts;
         }
 
+        public Task<List<Product>> GetAllCustomersAsync()
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Product c_resource)
         {
             throw new NotImplementedException();

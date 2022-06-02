@@ -16,7 +16,7 @@ namespace storeDL
        }
 
        // -----===========------Dependacy Injection-----------================------------
-        public void Add(CustomerClass c_resource)
+        public  void Add(CustomerClass c_resource)
         {
            string SQLQuery = @"insert into CustomerTable 
                                 values (@CustomerPhoneNumber, @CustomerName, @CustomerEmail)";
@@ -34,11 +34,19 @@ namespace storeDL
                 command.Parameters.AddWithValue("@CustomerEmail", c_resource.CustomerEmail);
 
                 //Execute sql statement that is nonquery meaning it will not give any information back (unlike a select statement)
-                command.ExecuteNonQuery();
+                //  once we add aync to the method, we changed ExecuteNonQuery to ExecuteNonQueryAsync and add await to the beginning
+                 command.ExecuteNonQuery();
             }
         }
+// =============bs update method to aviod implementing new interface =========
+       void Update(CustomerClass c_resource)
+        {
+            throw new NotImplementedException();
+        }
 
-        public List<CustomerClass> GetAllCustomers()
+
+    //   we can add async to this method since it have a return (datatype alwsy in task<>)
+        public  List<CustomerClass> GetAllCustomers()
         {
             string SQLQuery = @"select * from  CustomerTable";
             // make list of customers to get all of em
@@ -52,7 +60,7 @@ namespace storeDL
                 //  have : using Microsoft.Data.SqlClient; on top
 
                 //  1 first we use open method open connection to our db
-                con.Open();
+                 con.Open();
 
                 // 2 sql Comand class/object to execute sql statement to db
                 //  in the parameter of the object we put in the cammand to be executed, then the connect called con
@@ -61,12 +69,12 @@ namespace storeDL
                 //  3 hence C# dont understand tables, and it only know class&object we need a class that reads
                 // we need sqlDataReader object to convert the table to what c# understand class/object
 
-                SqlDataReader reader = command.ExecuteReader();
+                SqlDataReader reader =  command.ExecuteReader();
 
                 // since we dont know how many table we might be repeating, we using a while loop
                 // read method here push the SqlDataReader to the next row then the next
                 // we map the table to a format sql understands
-                while (reader.Read())
+                while ( reader.Read())
                 {
                     // we are adding new customerclass object to our list collection
                    listOfCustomers.Add(new CustomerClass(){
@@ -124,9 +132,60 @@ namespace storeDL
             }
         }
 
-        public void Update(CustomerClass c_resource)
+       
+
+        public async Task<List<CustomerClass>> GetAllCustomersAsync()
+        {
+             string SQLQuery = @"select * from  CustomerTable";
+            // make list of customers to get all of em
+            List<CustomerClass> listOfCustomers = new List<CustomerClass>();
+            // sql connection object is responsible for making a connection to your database
+            // that's why we pass out connectionString information when we make that object
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            {
+                // how to connect C# with your DB
+                // we added the necessary package =>  dotnet add package Microsoft.Data.SqlClient --version 4.1.0
+                //  have : using Microsoft.Data.SqlClient; on top
+
+                //  1 first we use open method open connection to our db
+                 await con.OpenAsync();
+
+                // 2 sql Comand class/object to execute sql statement to db
+                //  in the parameter of the object we put in the cammand to be executed, then the connect called con
+                SqlCommand command = new SqlCommand(SQLQuery, con);
+
+                //  3 hence C# dont understand tables, and it only know class&object we need a class that reads
+                // we need sqlDataReader object to convert the table to what c# understand class/object
+
+                SqlDataReader reader = await command.ExecuteReaderAsync();
+
+                // since we dont know how many table we might be repeating, we using a while loop
+                // read method here push the SqlDataReader to the next row then the next
+                // we map the table to a format sql understands
+                while ( await reader.ReadAsync())
+                {
+                    // we are adding new customerclass object to our list collection
+                   listOfCustomers.Add(new CustomerClass(){
+
+                    //    the new CustomerClass will hold the properties obtained from a single record in SQL
+                    //  list list, this table is zero based index
+                     CustomerPhoneNumber = reader.GetString(0), 
+                     CustomerName = reader.GetString(1),
+                     CustomerEmail = reader.GetString(2),
+                    //  product set it to GiveProductToCustomer() you just created
+                    Products = GiveProductToCustomer(reader.GetString(0))
+
+                   });  
+                }  
+                 return listOfCustomers;
+            }
+        }
+
+        void IRepository<CustomerClass>.Update(CustomerClass c_resource)
         {
             throw new NotImplementedException();
         }
+
+      
     }
 }

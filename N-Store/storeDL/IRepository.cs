@@ -18,11 +18,17 @@ namespace storeDL
         /// <param name="c_resource">This is the resource being saved to the database</param>
         void Add(T c_resource);
 
+        //  create asyn add method
+        // void AddAsync(T c_resource);
+
         /// <summary>
         /// This will get all the specific resource from the database
         /// </summary>
         /// <returns>T is the resource being given</returns>
         List<T> GetAllCustomers();
+        
+        // async version of List<T>
+        Task<List<T>> GetAllCustomersAsync();
 
         /// <summary>
         /// This will update an existing resource
