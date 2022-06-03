@@ -18,7 +18,7 @@ namespace storeDL
        // -----===========------Dependacy Injection-----------================------------
         public  void Add(CustomerClass c_resource)
         {
-           string SQLQuery = @"insert into CustomerTable 
+           string SQLQuery = @"insert into CustomerTablee 
                                 values (@CustomerPhoneNumber, @CustomerName, @CustomerEmail)";
 
             using (SqlConnection con = new SqlConnection(_connectionString))
@@ -48,7 +48,7 @@ namespace storeDL
     //   we can add async to this method since it have a return (datatype alwsy in task<>)
         public  List<CustomerClass> GetAllCustomers()
         {
-            string SQLQuery = @"select * from  CustomerTable";
+            string SQLQuery = @"select * from  CustomerTablee";
             // make list of customers to get all of em
             List<CustomerClass> listOfCustomers = new List<CustomerClass>();
             // sql connection object is responsible for making a connection to your database
@@ -95,7 +95,7 @@ namespace storeDL
         // build private method for product
         private List<Product> GiveProductToCustomer( string c_CustomerPhoneNumber)
         {
-             string SQLQuery = @" select ct.CustomerName, p.productName, p.productId  from CustomerTable ct
+             string SQLQuery = @" select ct.CustomerName, p.productName, p.productId  from CustomerTablee
             inner join store_products sp on ct.CustomerPhoneNumber = sp.CustomerPhoneNumber  
             inner join Product p on p.productId = sp.productId
             where ct.CustomerPhoneNumber =  @CustomerPhoneNumber ";
@@ -136,7 +136,7 @@ namespace storeDL
 
         public async Task<List<CustomerClass>> GetAllCustomersAsync()
         {
-             string SQLQuery = @"select * from  CustomerTable";
+             string SQLQuery = @"select * from  CustomerTablee";
             // make list of customers to get all of em
             List<CustomerClass> listOfCustomers = new List<CustomerClass>();
             // sql connection object is responsible for making a connection to your database
@@ -169,11 +169,11 @@ namespace storeDL
 
                     //    the new CustomerClass will hold the properties obtained from a single record in SQL
                     //  list list, this table is zero based index
-                     CustomerPhoneNumber = reader.GetString(0), 
-                     CustomerName = reader.GetString(1),
-                     CustomerEmail = reader.GetString(2),
+                     CustomerPhoneNumber = reader.GetString(1), 
+                     CustomerName = reader.GetString(2),
+                     CustomerEmail = reader.GetString(3),
                     //  product set it to GiveProductToCustomer() you just created
-                    Products = GiveProductToCustomer(reader.GetString(0))
+                    // Products = GiveProductToCustomer(reader.GetString(1))
 
                    });  
                 }  

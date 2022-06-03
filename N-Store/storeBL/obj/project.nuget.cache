@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PQ5ZRHvqLavVbAXp+GNP0op6iAqFO8/RUl2ANwm4FrN9Ppcc/ZxWnWMaeLCz7PCSAHEOStOlYOMeKhXYmdrV6A==",
+  "dgSpecHash": "huXduAUPzdYajumsk2mbsvWikuGJdZI1eZXI6X+Z48qXbK8RMa2JbU/fR6Ux7Tib0wQijAdEj1F9A0+XKyx26g==",
   "success": true,
-  "projectFilePath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj",
+  "projectFilePath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/StoreBL/storeBL.csproj",
   "expectedPackageFiles": [
     "/Users/mahamadoukabba/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/Users/mahamadoukabba/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",

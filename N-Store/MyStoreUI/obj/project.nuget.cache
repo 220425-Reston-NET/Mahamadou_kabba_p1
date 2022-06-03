@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wWBFs/malQCNS/Yh5K876M1FGOLP8XZLHQziReQzvzMZYrSamj69lcFH/IaUnN2YRmK64Hy5hqMjMf+zAb+0/Q==",
+  "dgSpecHash": "okVSqL8jtF0vkv8LZs/zo5WWtQDlkII08veNb0+W2Tku0b4QiDWRNLiGXdxI6f7S/9ZeP8fNQ74yMQKJ2ug+kg==",
   "success": true,
-  "projectFilePath": "/Users/mahamadoukabba/Desktop/Revature/MyStore/MyStoreUI/MyStoreUI.csproj",
+  "projectFilePath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/MyStoreUI/MyStoreUI.csproj",
   "expectedPackageFiles": [
     "/Users/mahamadoukabba/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/Users/mahamadoukabba/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",

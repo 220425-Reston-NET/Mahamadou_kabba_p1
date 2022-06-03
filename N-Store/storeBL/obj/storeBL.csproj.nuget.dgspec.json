@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj": {}
+    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/StoreBL/storeBL.csproj": {}
   },
   "projects": {
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj": {
+    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/StoreBL/storeBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj",
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/StoreBL/storeBL.csproj",
         "projectName": "storeBL",
-        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj",
+        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/StoreBL/storeBL.csproj",
         "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
-        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/obj/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/StoreBL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
