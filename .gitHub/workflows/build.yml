@@ -1,7 +1,7 @@
 name: Build
 on:
   push:
-  # this is stating it will trigger this pipline whenver you push
+  # this is stating it will trigger this pipline whenver you pus
     branches: [main]
       #- main
       # this stating will trigger this piplen whenver you pull
