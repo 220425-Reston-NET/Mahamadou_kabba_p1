@@ -9,7 +9,7 @@ phases:
         - /usr/local/bin/dotnet-install.sh --chanel LTS
 
 
-  pre_build:
+   pre_build:
     commands:
       - echo 'Restoring dependencies of each project (the packages) and unit testing'
       - dotnet restore
