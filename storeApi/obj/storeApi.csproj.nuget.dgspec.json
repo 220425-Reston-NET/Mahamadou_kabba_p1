@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/storeApi.csproj": {}
+    "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/storeApi.csproj": {}
   },
   "projects": {
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/storeApi.csproj": {
+    "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/storeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/storeApi.csproj",
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/storeApi.csproj",
         "projectName": "storeApi",
-        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/storeApi.csproj",
+        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/storeApi.csproj",
         "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
-        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/obj/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
@@ -26,14 +26,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj": {
-                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj"
+              "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/storeBL.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/storeBL.csproj"
               },
-              "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj": {
-                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj"
+              "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj"
               },
-              "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj": {
-                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj"
+              "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj": {
+    "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/storeBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj",
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/storeBL.csproj",
         "projectName": "storeBL",
-        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj",
+        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/storeBL.csproj",
         "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
-        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/obj/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
@@ -97,11 +97,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj": {
-                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj"
+              "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj"
               },
-              "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj": {
-                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj"
+              "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj": {
+    "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj",
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj",
         "projectName": "storeDL",
-        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj",
+        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj",
         "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
-        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/obj/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
@@ -156,8 +156,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj": {
-                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj"
+              "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj": {
+                "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj"
               }
             }
           }
@@ -196,14 +196,14 @@
         }
       }
     },
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj": {
+    "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj",
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj",
         "projectName": "storeModel",
-        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj",
+        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj",
         "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
-        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/obj/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"

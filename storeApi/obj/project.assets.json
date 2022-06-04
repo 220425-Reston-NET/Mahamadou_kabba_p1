@@ -2571,11 +2571,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/storeApi.csproj",
+      "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/storeApi.csproj",
       "projectName": "storeApi",
-      "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/storeApi.csproj",
+      "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/storeApi.csproj",
       "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
-      "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeApi/obj/",
+      "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"
@@ -2590,14 +2590,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj": {
-              "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeBL/storeBL.csproj"
+            "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/storeBL.csproj": {
+              "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeBL/storeBL.csproj"
             },
-            "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj": {
-              "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeDL/storeDL.csproj"
+            "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj": {
+              "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeDL/storeDL.csproj"
             },
-            "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj": {
-              "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj"
+            "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj": {
+              "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj"
             }
           }
         }
