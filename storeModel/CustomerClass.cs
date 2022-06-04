@@ -5,6 +5,7 @@ namespace storeModel
   { 
      // we using properties to save information
     // public int ProductID { get; set; }
+    // public int CustomerId;
     public string CustomerName { get; set; }
     public string CustomerEmail { get; set; }
 

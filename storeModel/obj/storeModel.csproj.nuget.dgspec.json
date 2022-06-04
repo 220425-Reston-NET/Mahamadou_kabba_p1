@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj": {}
+    "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj": {}
   },
   "projects": {
-    "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj": {
+    "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj",
+        "projectUniqueName": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj",
         "projectName": "storeModel",
-        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/storeModel.csproj",
+        "projectPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/storeModel.csproj",
         "packagesPath": "/Users/mahamadoukabba/.nuget/packages/",
-        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/N-Store/storeModel/obj/",
+        "outputPath": "/Users/mahamadoukabba/Desktop/new-my-store/storeModel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mahamadoukabba/.nuget/NuGet/NuGet.Config"

@@ -14,7 +14,8 @@ builder.Services.AddSwaggerGen();
 //  let api frame work handel the job
 //  let the from work now what class we making object out of
 //  now these two lines will do all our object creatioons for us
-builder.Services.AddScoped<IRepository<CustomerClass>, SQLStoreRepository>(repo => new SQLStoreRepository(builder.Configuration.GetConnectionString("KM_DB")));
+//  chgnae configuration to point to aws from appsetting
+builder.Services.AddScoped<IRepository<CustomerClass>, SQLStoreRepository>(repo => new SQLStoreRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<IstoreBL, MyStoreBL>();
 
 var app = builder.Build();
