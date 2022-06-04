@@ -15,13 +15,13 @@ phases:
       - dotnet restore
       - dotnet test --no-restore
 
-  build:
+   build:
     commands:
       - echo 'building the app'
       - dotnet build
 
 
-  post_build:
+   post_build:
     commands:
       - echo 'Creating Publish folder for the app'
       - dotnet publish -c Release -o publish
