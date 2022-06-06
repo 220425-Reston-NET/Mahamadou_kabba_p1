@@ -1,4 +1,5 @@
-﻿using storeDL;
+﻿using System.ComponentModel.DataAnnotations;
+using storeDL;
 using storeModel;
 
 namespace storeBL
@@ -7,7 +8,7 @@ namespace storeBL
 public class MyStoreBL : IstoreBL
 {
 //   ======== Dependency Injection ==============
-  private IRepository<CustomerClass> _storeRepo;
+  private readonly IRepository<CustomerClass> _storeRepo;
   public MyStoreBL(IRepository<CustomerClass> p_storeRepo)
     {
        _storeRepo = p_storeRepo;
@@ -37,7 +38,7 @@ public class MyStoreBL : IstoreBL
     }
     else
     {
-        throw new Exception("Customer number already exist");
+        throw new  ValidationException("Customer number already exist");
     }
 }
 
