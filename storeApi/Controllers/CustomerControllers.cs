@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+ using Serilog;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -28,13 +29,14 @@ namespace storeApi.Controllers
         {
             try
             {
+                Log.Information("User going to Get all customer");
                  List<CustomerClass> listOfCurrentCustomers = await _storeBL.GetAllCustomerAsync();
                //  followed by "ok()" it determines what http status code to give
               return Ok(listOfCurrentCustomers);
             }
             catch (SqlException)
             {
-                
+                Log.Information("no customer found");
                 return NotFound("No Customer Exist");
             }
         }
@@ -45,6 +47,7 @@ namespace storeApi.Controllers
         {
           try
             {
+                Log.Information("Customer was added");
                 // use bussines layer used to add customer
                 _storeBL.AddCustomer(s_store);
                //  followed by "ok()" it determines what http status code to give
@@ -52,7 +55,7 @@ namespace storeApi.Controllers
             }
             catch (SqlException)
             {
-                
+                Log.Information("No customer added / customer already in system");
                 return Conflict("Customer already in the system or an invalid info");
             }
 
@@ -65,11 +68,12 @@ namespace storeApi.Controllers
 
             try
             {
+                Log.Information("Customer searched by phone number");
                 return Ok(_storeBL.SearchCustomerByPhoneNumber(SearchCustomerByNumber));
             }
             catch (System.Exception)
             {
-                
+                Log.Information("cutomer not in system");
                 return Conflict();
             }
           

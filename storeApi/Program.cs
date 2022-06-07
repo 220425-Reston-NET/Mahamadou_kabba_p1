@@ -1,8 +1,14 @@
 using storeDL;
 using storeBL;
 using storeModel;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//Initializing my logger
+    Log.Logger = new LoggerConfiguration() //LoggerConfiguration used to configure your logger and create it
+    .WriteTo.File("./logs/user.txt") //Configuring the logger to save information to a file called user.txt inside of logs folder
+    .CreateLogger(); //A method to create the logger
 
 // Add services to the container.
 

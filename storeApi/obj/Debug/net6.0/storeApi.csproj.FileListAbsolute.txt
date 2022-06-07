@@ -190,3 +190,13 @@
 /Users/mahamadoukabba/Desktop/new-my-store/storeApi/obj/Debug/net6.0/ref/storeApi.dll
 /Users/mahamadoukabba/Desktop/new-my-store/storeApi/obj/Debug/net6.0/storeApi.pdb
 /Users/mahamadoukabba/Desktop/new-my-store/storeApi/obj/Debug/net6.0/storeApi.genruntimeconfig.cache
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/mahamadoukabba/Desktop/new-my-store/storeApi/bin/Debug/net6.0/Serilog.Sinks.File.dll

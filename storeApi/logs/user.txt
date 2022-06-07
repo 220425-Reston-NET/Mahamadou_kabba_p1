@@ -1,0 +1,4 @@
+2022-06-07 14:38:48.220 -04:00 [INF] User going to Get all customer
+2022-06-07 16:22:50.864 -04:00 [INF] Customer was added
+2022-06-07 16:33:28.392 -04:00 [INF] Customer was added
+2022-06-07 16:37:33.251 -04:00 [INF] Customer was added
